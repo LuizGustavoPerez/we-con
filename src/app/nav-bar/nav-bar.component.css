@@ -1,0 +1,19 @@
+a{
+    cursor: pointer;
+}
+
+.navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.navbar-brand:hover{
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: black;
+}

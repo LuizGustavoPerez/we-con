@@ -1,0 +1,11 @@
+.left-side{
+    display: block;
+    background-color:#007bff;
+    opacity: 0.5;
+    height:91%;
+    position: absolute;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 15px 15px 15px 15px;
+}
