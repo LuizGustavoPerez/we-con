@@ -1,22 +1,23 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-primary">
-  <a class="navbar-brand" [routerLink]="['/']">WeCon</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/']">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/about']">Sobre nós</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/contact']">Contato</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/clientArea']">Área do cliente</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="navBar">
+    <img src="../../assets/images/logo/logo-wecon-nav.png" [routerLink]="['/']" alt="WeCon">
+    <button class="navbar-toggler" (click)="toggleNavbar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav" [ngClass]="{ 'show': navbarOpen }">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/']">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/about']">Sobre nós</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/contact']">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/clientArea']">Área do cliente</a>
+        </li>
+      </ul>
+    </div>
+  </nav>

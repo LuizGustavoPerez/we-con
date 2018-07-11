@@ -2,6 +2,10 @@ a{
     cursor: pointer;
 }
 
+img{
+    cursor: pointer;
+}
+
 .navbar-brand{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -17,3 +21,8 @@ a{
 .navbar-light .navbar-nav .nav-link:hover{
     color: black;
 }
+
+#navBar{
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
